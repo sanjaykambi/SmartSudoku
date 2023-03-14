@@ -36,6 +36,7 @@ Total possible Ans:1
 3 2 6 1 9 5 8 7 4 
 9 5 4 7 2 8 1 6 3
 
+
 example 2:-
 Input:-
 
@@ -52,6 +53,7 @@ Total possible Ans:1
 3 4 2 1 
 4 1 3 2 
 2 3 1 4
+
 
 This algorithm is designed to solve Sudoku puzzles using the "backtracking method". The process begins by identifying the first empty cell in the puzzle and generating a list of possible valid values that can be filled in that cell. The algorithm then iterates over this list and attempts to place the first value in the required cell. If this value is not valid, the algorithm backtracks to the previous cell and attempts the next value on the list until a valid value is found. This process is repeated until all cells in the puzzle have been filled with valid values, at which point the puzzle is considered solved.
 
